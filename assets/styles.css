@@ -542,7 +542,7 @@ p {
     }
 
     .buy__imgSide {
-        margin-left: 6.5rem;
+        margin-left: 5rem;
         margin-top: -0.6rem;
         position: relative;
     }
@@ -562,7 +562,7 @@ p {
 
     .buy__title,
     .join__title {
-        font-size: 42px;
+        font-size: 34px;
     }
 
     .intro__submit,
@@ -582,4 +582,217 @@ p {
         top: 2rem;
         left: 1rem;
     }
+
+    .footer__text {
+        font-size: 9px;
+    }
+}
+
+@media (max-width: 767px) {
+    .intro {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .pluses__title,
+    .events__title {
+        font-size: 36px;
+    }
+
+    .buy__title,
+    .join__title {
+        font-size: 32px;
+    }
+
+    .intro__wrap, 
+    .events__wrap, 
+    .buy__wrap, .join, 
+    .footer {
+        padding-left: 4.4rem;
+    }
+
+    .intro__imgSide {
+        margin-top: -1rem;
+    }
+
+    .intro__scooterImg {
+        width: 100%;
+        max-width: 100%;
+    }
+
+    .intro__submit {
+        position: fixed;
+        bottom: 1rem;
+        transform: translateX(22vw);
+    }
+
+    .intro__textCircleImg {
+        bottom: 7.4rem;
+        left: 10.3rem;
+    }
+
+    .pluses__item {
+        display: flex;
+        flex-wrap: nowrap;
+        width: 100%;
+    }
+
+    .pluses__iconWrap {
+        margin-right: 2rem;
+    }
+
+    .intro__title {
+        font-size: 42px;
+        letter-spacing: -0.72px;
+    }
+
+    .intro__text,
+    .pluses__text,
+    .events__text,
+    .buy__text,
+    .join__text {
+        font-size: 18px;
+    }
+
+    .events__photosWrap {
+        margin-left: 0.15rem;
+    }
+
+    .events__bordsImg {
+        top: -17.3rem;
+    }
+
+    .events__drinkImgWrap {
+        bottom: -0.5rem;
+        right: -2rem;
+    }
+
+    .events__markImg {
+        top: -5.3rem;
+        left: -7.5rem;
+    }
+
+    .buy__imgSide {
+        margin-left: 4.5rem;
+    }
+
+    .join {
+        flex-direction: column;
+    }
+
+    .join__scooterImg {
+        width: 73vw;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .join__textCircleImg {
+        left: -8.5rem;
+        bottom: -3.8rem;
+        width: 130%;
+    }
+
+    .join__imgSide {
+        margin-bottom: 6rem;
+    }
+
+    .join__imgSide::before {
+        width: 53vw;
+        top: 19rem;
+        left: 6rem;
+    }
+
+    .join__textSide {
+        padding-left: 0rem;
+        max-width: 80%;
+    }
+
+    .join__title {
+        max-width: 83%;
+    }
+
+    .join__btn {
+        width: 100%;
+    }
+
+    .intro__submit {
+        transform: translateX(18vw);
+    }
+
+}
+
+@media (max-width: 650px) {
+    .intro__textCircleImg {
+        bottom: 6.2rem;
+        left: 9.3rem;
+    }
+
+    .buy__imgSide {
+        display: none;
+    }
+
+    .buy__textSide {
+        width: 80%;
+        margin-top: 4rem;
+    }
+
+    .join__scooterImg {
+        width: 63vw;
+    }
+
+    .join__textCircleImg {
+        left: -8.5rem;
+        bottom: -3.8rem;
+        width: 120%;
+    }
+
+    .join__imgSide::before {
+        width: 50vw;
+        top: 14rem;
+    }
+
+    .intro__submit {
+        transform: translateX(14vw);
+    }
+        
+}
+
+@media (max-width: 590px) {
+    .intro__textCircleImg {
+        bottom: 4.8rem;
+        left: 6.9rem;
+    }
+
+    .buy__imgSide {
+        display: none;
+    }
+
+    .buy__textSide {
+        width: 80%;
+        margin-top: 4rem;
+    }
+
+    .join__scooterImg {
+        width: 63vw;
+    }
+
+    .join__textCircleImg {
+        left: -5.5rem;
+        bottom: -3.8rem;
+        width: 120%;
+    }
+
+    .join__imgSide::before {
+        width: 50vw;
+        top: 14rem;
+    }
+
+    .intro__submit {
+        transform: translateX(9.5vw);
+    }
+
+    .events__photosWrap {
+        display: none;
+    }
+        
 }
