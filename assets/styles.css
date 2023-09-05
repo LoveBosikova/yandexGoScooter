@@ -489,6 +489,11 @@ p {
 }
 
 @media (min-width: 768px) and (max-width: 1023px) {
+
+    body {
+        padding-top: 4.8rem; 
+    }
+
     .intro__wrap,
     .events__wrap,
     .buy__wrap,
@@ -589,6 +594,11 @@ p {
 }
 
 @media (max-width: 767px) {
+
+    body {
+        padding-top: 4.8rem; 
+    } 
+
     .intro {
         display: flex;
         flex-direction: column;
@@ -794,5 +804,257 @@ p {
     .events__photosWrap {
         display: none;
     }
-        
+
+    .events__text {
+        max-width: 75%;
+    }
+
+    .buy__wrap {
+        margin-top: 3.1rem;
+    }
+
+    .swiper {
+        margin-top: 4rem;
+    }
+
+    .paginationWrapper {
+        height: 6vh;
+        position: relative;
+        display: flex;
+        max-width: 40%;
+        margin-left: 7.5rem;
+        margin-right: auto;
+    }
+
+    .swiper-img {
+        border-radius: 48px;
+        width: 90%;
+        max-width: 90%;
+    }
+
+    .events__wrap {
+        padding-left: 0;
+    }
+
+    .events {
+        padding-left: 4.4rem;
+    }
+
+    .join__imgSide::before {
+        top: 8rem;
+    }
+
+}
+
+@media (max-width: 480px) {
+    .intro__textCircleImg {
+        bottom: 2.8rem;
+        left: 4.9rem;
+    }
+
+    .paginationWrapper {
+        margin-left: 6.5rem;
+    }
+
+    .join__scooterImg {
+        width: 56vw;
+    }
+
+    .join__imgSide::before {
+        top: 3rem;
+        left: 2rem;
+    }
+
+    .intro__submit {
+        transform: translateX(-0.5vw);
+    }
+
+    .footer__text, .footer__link {
+        font-size: 11px;
+    }
+
+    .gradient,
+    .opacity-gradient {
+        max-height: 40rem;
+    }
+
+}
+
+@media (max-width: 430px) {
+    .intro__textCircleImg {
+        bottom: 1.8rem;
+        left: 2.9rem;
+    }
+
+    .paginationWrapper {
+        margin-left: 5.5rem;
+    }
+
+    .events,
+    .buy__wrap {
+        padding-left: 2.4rem;
+    } 
+
+    .join__scooterImg {
+        width: 52vw;
+    }
+
+    .join__imgSide::before {
+        top: 3rem;
+        left: 2rem;
+    }
+
+    .intro__submit {
+        transform: translateX(-4.5vw);
+    }
+
+    .footer__text, .footer__link {
+        font-size: 11px;
+    }
+}
+
+@media (max-width: 375px) {
+
+    body {
+        padding-top: 1.3rem;
+    }
+
+    .intro__logo {
+        width: 36%;
+    }
+
+    .intro__textSide {
+        max-width: 96%;
+    }
+
+    .intro__title {
+        margin-top: 0.9rem;
+        letter-spacing: -0.72px;
+        font-size: 36px;
+        max-width: 67%;
+    }
+
+    .intro__imgSide {
+        margin-top: -0.2rem;
+        margin-left: -1.4rem;
+    }
+
+    .intro__text {
+        margin-top: 1.6rem;
+        max-width: 100%;
+    }
+
+    .intro__textCircleImg {
+        bottom: 4.6rem;
+        left: 5.9rem;
+        width: 24%;
+    }
+
+    .intro__wrap, 
+    .events__wrap, 
+    .buy__wrap, .join, 
+    .footer {
+        padding-left: 2rem;
+    }
+
+    .gradient,
+    .opacity-gradient {
+        max-height: 30rem;
+    }
+
+    .pluses__wrap {
+        margin-top: 2.2rem;
+    }
+
+    .pluses__title {
+        max-width: 100%;
+        font-size: 32px;
+    }
+
+    .pluses__item {
+        align-items: center;
+        margin-bottom: 0.6rem;
+    }
+
+    .pluses__icon {
+        width: 95%;
+    }
+
+    .pluses__icon--big {
+        width: 80%;
+    }
+
+    .pluses__text {
+        max-width: 74%;
+    }
+    
+    .pluses__text, 
+    .events__text, 
+    .buy__text, 
+    .join__text {
+        margin-top: 0;
+    }
+
+    .pluses__text, 
+    .pluses__text, 
+    .events__text, 
+    .buy__text, 
+    .join__text {
+        font-size: 16px;
+    }
+
+    .pluses__iconWrap {
+        margin-right: 0rem;
+    }
+
+    .events, .buy__wrap {
+        padding-left: 0;
+    }
+
+    .pluses__title, .events__title {
+        font-size: 32px;
+    }
+
+    .swiper-img {
+        width: 97%;
+        max-width: 96%;
+    }
+    
+    .buy__wrap {
+    padding-left: 2rem;
+    margin-top: 1.1rem;
+    }
+
+    .join {
+        margin-top: 3.2rem;
+    }
+
+    .join__textCircleImg {
+        left: -2rem;
+        bottom: -2.7rem;
+        width: 116%;
+    }
+
+    .join__scooterImg {
+        padding-left: 4rem;
+    }
+
+    .join__imgSide::before {
+        width: 30vw;
+    }
+
+    .join__imgSide {
+        margin-bottom: 2.8rem;
+    }
+
+    .join__btn,
+    .intro__submit {
+        font-size: 18px;
+    }
+
+    .intro__submit {
+        transform: translateX(1.5vw);
+    }
+
+
 }

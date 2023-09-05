@@ -1,16 +1,9 @@
-const swiper = new Swiper('.swiper', {
-    // Optional parameters
-    loop: true,
+const swiper = new Swiper('.mySwiper', {
 
-  
-    // Navigation arrows
     navigation: {
       nextEl: '.swiper-button-next',
       prevEl: '.swiper-button-prev',
     },
-  
-    // And if we need scrollbar
-    scrollbar: {
-      el: '.swiper-scrollbar',
-    },
   });
+
+  console.log(swiper);
